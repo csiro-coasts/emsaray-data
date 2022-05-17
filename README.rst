@@ -14,7 +14,7 @@ handled by the ``UGrid`` format class.
 The dataset is downloaded and subset via the ``scripts/download_austen.py`` script.
 
 Link
-    <https://doi.org/10.25919/q8dw-c732>
+    https://doi.org/10.25919/q8dw-c732
 Licence
     `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_
 Citation
@@ -29,6 +29,20 @@ handled by the ``CFGrid1D`` format class.
 The dataset is downloaded and subset via the ``scripts/download_bran2020.py`` script.
 
 Link
-    <https://dx.doi.org/10.25914/6009627c7af03>
+    https://dx.doi.org/10.25914/6009627c7af03
+Licence
+    `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_
+
+``gbr4``
+========
+
+A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
+part of the eReefs data.
+This dataset is defined on a curvilinear grid with two dimensional coordinates,
+handled by the ``CFGrid2D`` format class.
+The dataset is downloaded and subset via the ``scripts/download_gbr4.py`` script.
+
+Link
+    https://research.csiro.au/ereefs/ereefs-data/
 Licence
     `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_
