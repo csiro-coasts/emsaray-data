@@ -33,6 +33,22 @@ Link
 Licence
     `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_
 
+``fraser``
+========
+
+A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
+part of the eReefs data.
+This subset is centred around K'gari / Fraser Island.
+This dataset is defined on a curvilinear grid with two dimensional coordinates,
+handled by the ``CFGrid2D`` format class.
+Temperature, sea surface height, and current variables are included.
+The dataset is downloaded and subset via the ``scripts/download_fraser.py`` script.
+
+Link
+    https://research.csiro.au/ereefs/ereefs-data/
+Licence
+    `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_
+
 ``gbr4``
 ========
 
@@ -40,6 +56,7 @@ A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
 part of the eReefs data.
 This dataset is defined on a curvilinear grid with two dimensional coordinates,
 handled by the ``CFGrid2D`` format class.
+Temperature, sea surface heigh, and salinity variables are included.
 The dataset is downloaded and subset via the ``scripts/download_gbr4.py`` script.
 
 Link
