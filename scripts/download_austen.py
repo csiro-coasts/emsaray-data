@@ -44,6 +44,11 @@ dataset = xr.Dataset(
     },
     attrs=dataset.attrs,
 )
+# This connectivity array has a string-typed start_index.
+# This goes against the spec, and raises a warning in emsarray.
+# Let's fix it here so our example datasets are well formed.
+face_nodes = dataset['Mesh2_face_nodes']
+face_nodes.attrs['start_index'] = np.int32(face_nodes.attrs['start_index'])
 
 if out.exists():
     out.unlink()
