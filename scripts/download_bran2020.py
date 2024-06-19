@@ -6,7 +6,7 @@ import emsarray  # noqa
 import numpy as np
 import xarray as xr
 
-url = "https://dapds00.nci.org.au/thredds/dodsC/gb6/BRAN/BRAN2020/daily/ocean_temp_2021_12.nc"
+url = "https://thredds.nci.org.au/thredds/dodsC/gb6/BRAN/BRAN2020/daily/ocean_temp_2021_12.nc"
 out = pathlib.Path("./bran2020.nc")
 
 dataset = xr.open_dataset(url)
