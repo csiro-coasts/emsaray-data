@@ -10,7 +10,7 @@ available through the ``emsarray.tutorial.open_datasets()`` function.
 
 A day of the AUSTEn National Tidal model data.
 This dataset is defined on a `Unstructured Grid <https://ugrid-conventions.github.io/ugrid-conventions/>`_,
-handled by the ``UGrid`` format class.
+handled by the ``UGrid`` convention.
 The dataset is downloaded and subset via the ``scripts/download_austen.py`` script.
 
 Link
@@ -25,7 +25,7 @@ Citation
 
 A small sample of the Bluelink Reanalysis 2020 (BRAN2020) ocean dataset.
 This dataset is defined on a rectangular grid with one dimensional coordinates,
-handled by the ``CFGrid1D`` format class.
+handled by the ``CFGrid1D`` convention.
 The dataset is downloaded and subset via the ``scripts/download_bran2020.py`` script.
 
 Link
@@ -40,7 +40,7 @@ A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
 part of the eReefs data.
 This subset is centred around K'gari / Fraser Island.
 This dataset is defined on a curvilinear grid with two dimensional coordinates,
-handled by the ``CFGrid2D`` format class.
+handled by the ``CFGrid2D`` convention.
 Temperature, sea surface height, and current variables are included.
 The dataset is downloaded and subset via the ``scripts/download_fraser.py`` script.
 
@@ -55,7 +55,7 @@ Licence
 A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
 part of the eReefs data.
 This dataset is defined on a curvilinear grid with two dimensional coordinates,
-handled by the ``CFGrid2D`` format class.
+handled by the ``CFGrid2D`` convention.
 Temperature, sea surface heigh, and salinity variables are included.
 The dataset is downloaded and subset via the ``scripts/download_gbr4.py`` script.
 
