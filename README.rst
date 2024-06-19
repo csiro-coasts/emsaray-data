@@ -33,16 +33,16 @@ Link
 Licence
     `CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_
 
-``fraser``
+``kgari``
 ========
 
 A subset of the Great Barrier Reef 4km (GBR4) v2.0 model,
 part of the eReefs data.
-This subset is centred around K'gari / Fraser Island.
+This subset is centred around K'gari.
 This dataset is defined on a curvilinear grid with two dimensional coordinates,
 handled by the ``CFGrid2D`` convention.
 Temperature, sea surface height, and current variables are included.
-The dataset is downloaded and subset via the ``scripts/download_fraser.py`` script.
+The dataset is downloaded and subset via the ``scripts/download_kgari.py`` script.
 
 Link
     https://research.csiro.au/ereefs/ereefs-data/
