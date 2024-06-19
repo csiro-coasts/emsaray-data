@@ -8,7 +8,7 @@ import emsarray
 from emsarray.utils import extract_vars
 
 url = "https://thredds.nci.org.au/thredds/dodsC/fx3/gbr4_v2/gbr4_simple_2022-05-12.nc"
-out = pathlib.Path("./fraser.nc")
+out = pathlib.Path("./kgari.nc")
 
 dataset = emsarray.open_dataset(url)
 
